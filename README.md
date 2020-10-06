@@ -1,4 +1,4 @@
-# SelfBalancingKafka_Demo
+# Self-Balancing Kafka Demo
 docker compose demo of SBK
 
 

@@ -1,1 +1,3 @@
+# startup with three brokers; create an unbalanced topic "sbk"
+# it will automatically rebalance after about 15 minutes
 docker-compose up --remove-orphans

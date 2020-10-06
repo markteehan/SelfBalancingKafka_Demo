@@ -23,12 +23,11 @@ This demo showcases the main features of Self-balancing Clusters, which will be 
 In order to run this demo, you will need *Docker* and at least 8GB of RAM.
 
 
-## Docker Images:
-The containers will be downloaded, initialized and started by docker compose. 
-This demo pulls the following docker images:
+## Docker Images
+The following containers will be downloaded, initialized and started by docker compose. 
 ZooKeeper
 Confluent Platform Server (cp-server)
-Confluent Control Center (optional to also try out the GUI)
+Confluent Control Center
 
 ## Test scenarios
 Uneven load - We will create uneven load in the cluster and watch Self-balancing address this condition.

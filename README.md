@@ -1,16 +1,15 @@
 # SelfBalancingKafka_Demo
 docker compose demo of SBK
 
-
+```
 Overview
-Product
-Definition
 Self-balancing simplifies the management of Kafka clusters in the following ways:
 
 When the load on the cluster is unevenly distributed, Self-balancing will automatically rebalance partitions to optimize performance
 When a new broker is added to the cluster, Self-balancing will automatically fill it with partitions
 When an operator wants to remove a broker, she can call a Self-balancing API to shut down the broker and drain the partitions from it
 When a broker has been down for a certain amount of time, Self-balancing will automatically reassign the partitions to other brokers
+
 
 Deployment
 Self-balancing runs on the Confluent Server brokers and does not introduce any new dependencies.

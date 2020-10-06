@@ -64,4 +64,4 @@ After the first rebalance completes, this script will add two brokers to the clu
 This can also be observed in Confluent Control Center
 ```
 
-![Confluent Control Center](https://postimg.cc/CdW3bnMX)
+[![Screenshot-2020-10-06-at-15-29-20.png](https://i.postimg.cc/4NdXkpDf/Screenshot-2020-10-06-at-15-29-20.png)](https://postimg.cc/CdW3bnMX)

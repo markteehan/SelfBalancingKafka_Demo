@@ -57,7 +57,7 @@ Browse to Cluster 1 | Brokers | Self-balancing and observe that the status is Id
 After 10-15 minutes, a rebalance will be activated and the leaders/followes for topic sbk will be rebalanced accross brokers 0/1/2.
 ```
 
-## Secnario 2: Add Brokers: 02_runme_expansion
+## Secenario 2: Add Brokers: 02_runme_expansion
 ```
 After the first rebalance completes, this script will add two brokers to the cluster, making a total of five brokers.
 "Self-Balancing" will again activate, and rebalance the leaders and followers for topic sbk accross five brokers after ten minutes.

@@ -1,0 +1,3 @@
+docker-compose  down
+rm -f docker-compose.override.yml
+yes y |docker system prune

@@ -63,3 +63,4 @@ After the first rebalance completes, this script will add two brokers to the clu
 "Self-Balancing" will again activate, and rebalance the leaders and followers for topic sbk accross five brokers after ten minutes.
 This can also be observed in Confluent Control Center
 ```
+

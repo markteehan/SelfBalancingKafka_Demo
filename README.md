@@ -44,6 +44,7 @@ If the demo doesnt work as expected, and you want more message logging, edit log
 
 ## Scenario 1: Uneven Load: 01_runme_startup
 Start a system with one zookeeper, three Kafka brokers, a Confluent Control Center and a container to execute commands (called "Runme55").
+'''
 The Runme55 container does the following:
 a. sleep for 15 seconds while the brokers come online
 b. create a topic "sbk" with fifty partitions, deliberately unbalanced with all leaders on one broker
@@ -54,6 +55,7 @@ Open Confluent Control Center http://localhost:9021 and examine the partition as
 Leader (Broker ID)=0 for all partitions, and Followers (Broker ID)=1 for all partitions.
 Browse to Cluster 1 | Brokers | Self-balancing and observe that the status is Idle.
 After 10-15 minutes, a rebalance will be activated and the leaders/followes for topic sbk will be rebalanced accross brokers 0/1/2.
+'''
 
 ## Secnario 2: Add Brokers: 02_runme_expansion
 After the first rebalance completes, this script will add two brokers to the cluster, making a total of five brokers.
